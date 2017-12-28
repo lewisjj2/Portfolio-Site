@@ -1,0 +1,74 @@
+/***************
+ Media Queries
+***************/
+
+/*Large Devices*/
+@media(min-width: 1200px){}
+        /*OK*/
+
+/*Medium Devices*/
+@media(min-width:768px) and (max-width:991px) {
+    .skills-container {
+        display: inline-block !important;
+         width: 100% !important;
+    }
+    .col-md-4-skills {
+       display: block !important;
+        width: 100% !important;
+        margin: 40px auto !important;
+        padding: 20px !important;
+        text-align: center !important;
+    }
+    .header {
+        max-height: 500px;
+    }
+}
+
+/*Small Devices*/
+@media(max-width: 768px){
+    .header {
+        max-height: 400px;
+    }
+    .hero-copy h1 {
+        font-size: 40px !important;
+    }
+     .skills-container {
+        display: inline-block !important;
+         width: 100% !important;
+    }
+    .col-md-4-skills {
+       display: block !important;
+        width: 100% !important;
+        margin: 40px auto !important;
+        padding: 20px !important;
+        text-align: center !important;
+    }
+    #skills-title {
+        margin-left: 0 !important;
+    }
+    .portfolio-image {
+        width: 100% !important;
+        display: block !important;
+        padding-bottom: 20px !important;
+    }
+    .footer {
+        padding-top: 6px !important;
+    }
+    
+}
+
+/*Smaller Devices*/
+@media(max-width: 360px) {
+    .hero-copy h1 {
+        font-size: 30px !important;
+    }
+}  
+        
+        
+
+    
+
+    
+    
+        
+       
